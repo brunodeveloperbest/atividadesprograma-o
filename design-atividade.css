@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(121, 92, 81);
+    background-color: rgb(176, 175, 182);
     
 }
 #titulo{
-    color: black;
+    color: rgb(14, 2, 53);
     font-size: xx-large;
     font-family: serif;
     margin-top: 2%;
@@ -23,6 +23,8 @@ body{
     margin-left: 40%;
     justify-content: center;
     width: 250px;
+    border-style: ridge;
+    border-color: rgb(57, 6, 87);
 }
 
 .botaosm{
