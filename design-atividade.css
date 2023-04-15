@@ -1,42 +1,46 @@
-/* tela principal */
-body{
+body {
     background-color: rgb(176, 175, 182);
 }
-#titulo{
+
+#titulo {
     color: rgb(14, 2, 53);
     font-size: xx-large;
     font-family: serif;
 }
-#subtitulo{
-    
+
+#subtitulo {
     font-style: italic;
     font-size: large;
     font-family: serif;
-    
     color: rgb(3, 3, 3);
 }
-#imagem{
+
+#imagem {
     justify-content: center;
     width: 250px;
     border-style: ridge;
     border-color: rgb(57, 6, 87);
 }
 
-.botaosm{
-    background :#c5b8af;
+.botaosm {
+    background: #f9f9fa;
     margin-top: 2%;
     margin-bottom: 2%;
+    border-style: ridge;
+    border-color: #beaee4;
+    color: black;
 }
-.botaoca{
-    background :#c5b8af;
+
+.botaoca {
+    background: #f9f9fa;
     color: white;
     margin-bottom: 2%;
+    border-style: ridge;
+    border-color: #beaee4;
 }
-.centralizar{
-    display: flex; 
+
+.centralizar {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-/* tela competências */
-
